@@ -5,11 +5,17 @@
 
 .cuerpo {
     background-color: rgb(170, 166, 166);
+    display: flex;
     
 }
 
 .tarjeta {
     background-color: rgb(255, 255, 255);
     width: 90%;
+    
+}
 
+.tarjeta img {
+    width: 200px;
+    height: 320px;
 }
