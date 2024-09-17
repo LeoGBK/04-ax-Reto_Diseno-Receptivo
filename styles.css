@@ -1,21 +1,21 @@
 .cabecera {
-    background-color: rgb(0, 0, 0);
-    color: azure;
+  background-color: rgb(0, 0, 0);
+  color: azure;
 }
 
 .cuerpo {
-    background-color: rgb(170, 166, 166);
-    display: flex;
-    
+  background-color: rgb(170, 166, 166);
+  padding: 2% 0% 2% 0%;
 }
 
 .tarjeta {
-    background-color: rgb(255, 255, 255);
-    width: 90%;
-    
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 400px;
+  margin: 5% 0% 5% 0%;
 }
 
 .tarjeta img {
-    width: 200px;
-    height: 320px;
+  width: 200px;
+  height: 320px;
 }
