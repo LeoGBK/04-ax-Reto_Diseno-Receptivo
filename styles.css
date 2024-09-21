@@ -30,6 +30,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
   flex-wrap: wrap;
 }
 
@@ -42,7 +43,7 @@ body {
 .tarjeta {
   background-color: rgb(255, 255, 255);
   width: 250px;
-  /* height: 380px; */
+  margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px 0px;
   display: flex;
   flex-direction: column;
@@ -55,12 +56,16 @@ body {
 }
 
 .texto {
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 10px;
   font-weight: bold;
 }
 
 h3 {
   font-size: larger;
+}
+
+a {
+  padding: 10px 0px 0px 10px;
 }
 
 @media only screen and (min-width: 500px) {
@@ -70,6 +75,7 @@ h3 {
 
   .tarjeta {
     width: 500px;
+    margin: 25px 0px 25px 0px;
   }
 
   .tarjeta img {
@@ -79,8 +85,12 @@ h3 {
 
   .texto {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px 0px 10px 0px;
+    padding: 15px 0px 10px 25px;
     font-weight: bold;
+  }
+
+  a {
+    padding: 15px 0px 0px 25px;
   }
 
   h3 {
