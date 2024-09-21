@@ -5,8 +5,10 @@ body {
 .cabecera {
   background-color: rgb(33, 32, 32);
   color: rgb(240, 255, 255);
+  width: 100%;
   text-align: center;
   padding: 0px 0px 10px 0px;
+  position: fixed;
 }
 
 .titulo {
@@ -24,7 +26,8 @@ body {
 
 .cuerpo {
   background-color: rgb(230, 230, 230);
-  padding: 1% 0% 1% 0%;
+  padding: 120px 0px 1px 0px;
+  /* padding: 1% 0% 1% 0%; */
   display: flex;
   justify-content: space-evenly;
 }
