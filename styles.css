@@ -31,7 +31,13 @@
   height: 350px;
 }
 
-@media screen {
+@media only screen and (min-width: 500px) {
+  .tarjeta {
+    width: 500px;
+  }
 
-    
+  .tarjeta img {
+    width: 450px;
+    height: 600px;
+  }
 }
