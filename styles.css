@@ -4,14 +4,16 @@
 }
 
 .cuerpo {
-  background-color: rgb(170, 166, 166);
+  background-color: rgb(230, 230, 230);
   padding: 1% 0% 1% 0%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tarjeta {
