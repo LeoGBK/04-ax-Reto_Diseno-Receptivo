@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecera {
@@ -12,24 +12,25 @@ body {
 }
 
 .titulo {
-    padding: 20px 0px 20px 0px;
-    font-size: large;
-    font-weight: bold;
+  padding: 20px 0px 20px 0px;
+  font-size: large;
+  font-weight: bold;
 }
 
 .menu {
-    display: inline-block;
-    border: 2px solid rgb(240, 255, 255);
-    padding: 15px 15px 15px 15px;
-    font-size: x-small;
+  display: inline-block;
+  border: 2px solid rgb(240, 255, 255);
+  padding: 15px 15px 15px 15px;
+  font-size: x-small;
 }
 
 .cuerpo {
   background-color: rgb(230, 230, 230);
   padding: 120px 0px 1px 0px;
-  /* padding: 1% 0% 1% 0%; */
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .center {
@@ -54,38 +55,35 @@ body {
 }
 
 .texto {
-    padding: 10px 0px 10px 0px;
-    font-weight: bold;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
 }
 
 h3 {
-    font-size: larger;
+  font-size: larger;
 }
 
-
-
-
 @media only screen and (min-width: 500px) {
-    .titulo {
-        font-size: xx-large;
-    }
-    
-    .tarjeta {
-      width: 500px;
-    }
-  
-    .tarjeta img {
-      width: 450px;
-      height: 600px;
-    }
-
-    .texto {
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 10px 0px 10px 0px;
-        font-weight: bold;
-    }
-    
-    h3 {
-        font-size: x-large;
-    }
+  .titulo {
+    font-size: xx-large;
   }
+
+  .tarjeta {
+    width: 500px;
+  }
+
+  .tarjeta img {
+    width: 450px;
+    height: 600px;
+  }
+
+  .texto {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: x-large;
+  }
+}
