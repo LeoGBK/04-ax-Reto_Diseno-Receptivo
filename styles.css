@@ -28,6 +28,12 @@ body {
   font-size: x-small;
 }
 
+a#boton {
+  text-decoration: none;
+  color: rgb(240, 255, 255);
+  padding: 0%;
+}
+
 /* Estilo para todo el gran bloque que contiene las tarjetas de películas */
 .cuerpo {
   background-color: rgb(230, 230, 230);
