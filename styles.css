@@ -28,6 +28,7 @@ body {
   font-size: x-small;
 }
 
+/* Giving styles to a specific <a> tag (the menu text) */
 a#boton {
   text-decoration: none;
   color: rgb(240, 255, 255);
